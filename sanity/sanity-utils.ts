@@ -10,7 +10,7 @@ import clientConfig from "./config/client-config";
 export async function getProjects(): Promise<Project[]> {
     const client = createClient ({
 
-        projectId: 'lfi3kjj6',
+        projectId: 'rd5tcgwn',
         dataset: 'production',
         apiVersion: "2024-02-25",
 
@@ -32,7 +32,7 @@ export async function getProjects(): Promise<Project[]> {
 export async function getNavs(): Promise<Project[]> {
     const client = createClient ({
 
-        projectId: 'lfi3kjj6',
+        projectId: 'rd5tcgwn',
         dataset: 'production',
         apiVersion: "2024-02-25",
 
@@ -55,7 +55,7 @@ export async function getNavs(): Promise<Project[]> {
 export async function getCpyrighttext(): Promise<Cpyrighttext[]> {
     const client = createClient ({
 
-        projectId: 'lfi3kjj6',
+        projectId: 'rd5tcgwn',
         dataset: 'production',
         apiVersion: "2024-02-25",
 
