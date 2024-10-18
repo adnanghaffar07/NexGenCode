@@ -594,10 +594,13 @@ export default function HomeNavigationContainer() {
               </div>
             </div> */}
 
-            <li className="flex flex-row items-center w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0">
-              <div>
-                <span className="hover:underline cursor-pointer">Blogs</span>
-              </div>
+<li
+              onClick={toggleAbout}
+              className="flex flex-row items-center text-lg w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0"
+            >
+              <button>
+                <span className="hover:underline">Blogs</span>
+              </button>
             </li>
           </ul>
           <Link

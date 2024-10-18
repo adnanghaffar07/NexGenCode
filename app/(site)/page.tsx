@@ -580,7 +580,7 @@ export default function Home() {
                     <div className="flex justify-center items-center px-4 w-20 h-20 bg-white rounded-full shadow shadow-slate-500 border border-slate-300">
                       <img
                         loading="lazy"
-                        src="/4.png"
+                        src="/project.png"
                         className="w-full"
                         alt="Code automation Project Initiation"
                       />
@@ -638,7 +638,7 @@ export default function Home() {
                 <div className="flex z-10 justify-center items-center self-end px-4 w-20 h-20 bg-white rounded-full shadow shadow-slate-500 border border-slate-300 absolute -top-10 right-5">
                   <img
                     loading="lazy"
-                    src="/automate-icon.svg"
+                    src="/seo.png"
                     className="w-full aspect-[1.02]"
                     alt="Code Automation Automate Your Business"
                   />
@@ -658,8 +658,8 @@ export default function Home() {
                 <div className="flex z-10 justify-center items-center self-end px-3 w-20 h-20 bg-white rounded-full shadow shadow-slate-500 border border-slate-300 max-md:px-5 absolute -top-10 right-5">
                   <img
                     loading="lazy"
-                    src="/6.png"
-                    className="w-full"
+                    src="/social-media.png"
+                    className="h-9"
                     alt="Launch"
                   />
                 </div>
@@ -678,7 +678,7 @@ export default function Home() {
                 <div className="flex z-10 justify-center items-center self-end px-5 w-20 h-20 bg-white rounded-full shadow shadow-slate-500 border border-slate-300 absolute -top-10 right-5">
                   <img
                     loading="lazy"
-                    src="/5.png"
+                    src="/analytics.png"
                     className="w-full aspect-[1.02]"
                     alt="Archives and Artifacts"
                   />
