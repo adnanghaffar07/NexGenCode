@@ -234,10 +234,10 @@ export default function FooterContainer() {
                     className="md:max-h-10 object-cover"
                   />
                   <a
-                    href="mailto:launch@nexgencode.ai"
+                    href="mailto:info@nexgencode.ai"
                     className="hover:underline my-auto inline-block"
                   >
-                   launch@nexgencode.ai
+                   info@nexgencode.ai
                   </a>
                 </div>
 
