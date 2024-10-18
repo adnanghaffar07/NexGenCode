@@ -696,7 +696,7 @@ export default function Home() {
           </div>
         </ScrollAnimation>
 
-        <div className="flex flex-col bg-[#F3F3F3] py-16 relative  overflow-hidden">
+        <div className="flex flex-col bg-[#F3F3F3] py-16  px-6 relative  overflow-hidden">
           <div className="absolute inset-0 z-0 bg-[url('/Testimonials.png')] bg-cover bg-center backdrop-blur-md"></div>
 
           <ScrollAnimation>
