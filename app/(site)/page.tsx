@@ -536,12 +536,12 @@ export default function Home() {
                       At NexGenCode, we combine collaboration, creativity, and precision to deliver outstanding digital solutions. Our project execution seamlessly integrates advanced technology with a personal touch, guided by our experienced team of certified professionals. We focus on crafting innovative strategies in digital marketing, website development, and app development that empower businesses to achieve their growth objectives in today’s digital landscape.
                     </p>
                   </div>
-                  <div className="flex items-start self-stretch pr-8 text-base xl:text-xl lg:text-lg font-medium whitespace-nowrap max-w-[450px] max-md:pr-5 mt-12">
+                  <div className="flex items-start self-stretch pr-8 text-base xl:text-xl lg:text-lg font-medium whitespace-nowrap max-w-[570px] max-md:pr-5 mt-12">
                     <Link
                       href="https://calendly.com/adnanghaffar"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="cursor flex overflow-hidden relative gap-2 px-6 py-3 items-center bg-[#F7E022] rounded-lg shadow-md"
+                      className="cursor flex overflow-hidden relative gap-2 px-2 py-3 items-center bg-[#F7E022] rounded-lg shadow-md"
                     >
                       <p className="relative grow self-center">
                         Launch Your Digital Transformation

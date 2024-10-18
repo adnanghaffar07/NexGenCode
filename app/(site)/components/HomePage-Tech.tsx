@@ -101,8 +101,8 @@ const TechnologiesSection = () => {
               key={index}
               className="flex flex-col items-center text-center w-1/4 sm:w-1/4 md:w-1/4 lg:w-1/6"
             >
-              <img src={tech.logo} alt={tech.name} className="h-12 mb-2" />
-              <span className="text-sm md:text-md font-md">{tech.name}</span>
+              <img src={tech.logo} alt={tech.name} className="h-9 md:h-12 mb-2" />
+              <span className="text-sm md:text-md md:font-md">{tech.name}</span>
             </div>
           ))}
         </div>
