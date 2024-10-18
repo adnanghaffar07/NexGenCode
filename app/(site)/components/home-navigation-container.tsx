@@ -52,7 +52,7 @@ export default function HomeNavigationContainer() {
     // This will attempt to open the standard dialer
     window.location.href = 'tel:+18505584691';
   };
-  
+
 
   const toggleMenu = useCallback(() => {
     setMenuState((prevState) => ({
@@ -594,13 +594,21 @@ export default function HomeNavigationContainer() {
               </div>
             </div> */}
 
-<li
+            <li
               onClick={toggleAbout}
               className="flex flex-row items-center text-lg w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0"
             >
               <button>
                 <span className="hover:underline">Blogs</span>
               </button>
+            </li>
+            <li
+              onClick={toggleAbout}
+              className="flex flex-row items-center text-lg w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0"
+            >
+              <Link href="lifeatngc">
+                <span className="hover:underline">Life at NGC</span>
+              </Link>
             </li>
           </ul>
           <Link
@@ -615,7 +623,7 @@ export default function HomeNavigationContainer() {
               className="object-cover"
             ></Image>
             <div className="my-auto text-nowrap text-black">850 558 4691</div>
-              <Image
+            <Image
               src="/USA-Flag.png"
               alt="USA-Flag-Icon"
               width={20}
@@ -836,9 +844,14 @@ export default function HomeNavigationContainer() {
                       )} */}
                     </li>
                     <li className="border-b border-gray-200 border-opacity-50 py-4">
-                      <div  onClick={handleToggleMenuIcon}>
+                      <div onClick={handleToggleMenuIcon}>
                         Blogs
                       </div>
+                    </li>
+                    <li className="border-b border-gray-200 border-opacity-50 py-4">
+                      <Link href="lifeatngc" onClick={handleToggleMenuIcon}>
+                        Life at NGC
+                      </Link>
                     </li>
                   </ul>
                 </div>

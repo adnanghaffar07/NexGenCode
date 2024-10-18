@@ -1,7 +1,7 @@
 // schemas/pageSection.js
 export default {
     name: 'lifeatCA',
-    title: 'Life at CA',
+    title: 'Life at NGC',
     type: 'document',
     fields: [
       {
