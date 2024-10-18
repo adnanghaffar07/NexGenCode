@@ -47,12 +47,14 @@ const technologiesData: Record<
     { name: "Yoast SEO", logo: "/yoast.png" },
   ],
   "smm-services": [
-    { name: "Hootsuite", logo: "/hootsuite.png" },
-    { name: "Buffer", logo: "/buffer.png" },
-    { name: "Sprout Social", logo: "/sprout.png" },
-    { name: "Canva", logo: "/canva.png" },
-    { name: "Facebook Ads Manager", logo: "/facebook.png" },
-
+    { name: "Facebook", logo: "/facebook.png" },
+    { name: "Instagram", logo: "/instagram.svg" },
+    { name: "TikTok", logo: "/tiktok.svg" },
+    { name: "LinkedIn", logo: "/linkedin.svg" },
+    { name: "Twitter", logo: "/twitter.png" },
+    { name: "Snapchat", logo: "/snapchat.png" },
+    { name: "Reddit", logo: "/reddit.svg" },
+    { name: "Youtube", logo: "/youtube.png" },
   ],
   "e-commerce-platforms": [
     { name: "Shopify", logo: "/shopify.svg" },
