@@ -695,10 +695,8 @@ export default function Home() {
             </div>
           </div>
         </ScrollAnimation>
-
         <div className="flex flex-col bg-[#F3F3F3] py-16  px-6 relative  overflow-hidden">
           <div className="absolute inset-0 z-0 bg-[url('/Testimonials.png')] bg-cover bg-center backdrop-blur-md"></div>
-
           <ScrollAnimation>
             <div className="relative z-10 flex flex-col items-center">
               <h2 className="w-full xl:text-4xl text-2xl font-medium text-white text-center">
