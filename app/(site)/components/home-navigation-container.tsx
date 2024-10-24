@@ -378,7 +378,7 @@ export default function HomeNavigationContainer() {
               onClick={toggleAbout}
               className="flex flex-row items-center text-lg w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0"
             >
-          <Link href="happy-clients">
+              <Link href="happy-clients">
                 <span className="hover:underline">Happy Clients</span>
               </Link>
               {/* <svg
@@ -746,10 +746,10 @@ export default function HomeNavigationContainer() {
                     </li>
 
                     <li className="border-b border-gray-200 border-opacity-50 py-4">
-                    <Link href="happy-clients">
-                <span className="hover:underline">Happy Clients</span>
-              </Link>
-                  
+                      <Link href="happy-clients">
+                        <span className="hover:underline">Happy Clients</span>
+                      </Link>
+
                     </li>
                     <li className="border-b border-gray-200 border-opacity-50 py-4">
                       <div onClick={handleToggleMenuIcon}>
