@@ -643,6 +643,8 @@ export default function HomeNavigationContainer() {
                       <Link href="/" onClick={handleToggleMenuIcon}>
                         Home
                       </Link>
+
+                      
                     </li>
                     <li className="border-b border-gray-200 border-opacity-50 py-4">
                       <div className="" onClick={toggleMenuVisibility}>
